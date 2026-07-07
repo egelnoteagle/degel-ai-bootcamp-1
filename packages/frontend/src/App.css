@@ -67,6 +67,20 @@ li {
   padding: 10px;
   border-bottom: 1px solid #ddd;
   text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete-btn {
+  background-color: #e55353;
+  color: #fff;
+  padding: 4px 10px;
+  font-size: 0.85rem;
+}
+
+.delete-btn:hover {
+  background-color: #c0392b;
 }
 
 li:last-child {
